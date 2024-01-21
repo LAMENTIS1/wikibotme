@@ -1,9 +1,9 @@
 import streamlit as st
-import spacy_streamlit as ss
+import spacy
 import wikipediaapi
 
 def extract_keywords(sentence):
-    nlp = ss.load("en_core_web_sm")
+    nlp = spacy.load("en_core_web_sm")
     doc = nlp(sentence)
     keywords = [token.text for token in doc if token.pos_ in ['NOUN', 'PROPN']]
     return keywords
