@@ -1,6 +1,7 @@
 spacy-streamlit
 python
 numpy
+nltk
 os
 torch
 transformers
