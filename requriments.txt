@@ -8,7 +8,7 @@ nltk
 bs4
 scikit-learn
 requests
-spacy
+spacy-streamlit
 wikipedia-api
 transformers
 json
