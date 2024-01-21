@@ -1,5 +1,5 @@
 import streamlit as st
-import spacy-streamlit as ss
+import spacy_streamlit as ss
 import wikipediaapi
 
 def extract_keywords(sentence):
